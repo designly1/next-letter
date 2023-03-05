@@ -1,0 +1,17 @@
+@layer components {
+    .btn-primary {
+        @apply bg-bg-500 px-8 py-4 text-white/90 rounded-3xl border-2 border-white/20 mx-auto;
+    }
+
+    .icon-btn {
+        @apply bg-bg-700 text-white/80 text-2xl flex gap-2 [&>*]:my-auto p-6 shadow-xl hover:text-white/90 transition-all ease-in-out duration-500 w-full md:w-fit;
+
+        svg {
+            @apply ml-auto;
+        }
+
+        div {
+            @apply mr-auto;
+        }
+    }
+}
