@@ -1,3 +1,5 @@
+// @/components/Layout/AuthLayout.js
+
 import React, { useEffect } from 'react'
 import Head from 'next/head'
 import MenuBar from './MenuBar'
